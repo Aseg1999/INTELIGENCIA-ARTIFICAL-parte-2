@@ -1,20 +1,22 @@
-# Proyecto inteligencia artificial , A* heuristica y teoria de juegos
+# Proyecto inteligencia artificial , A*, heuristica y teoria de juegos
 
 ## Descripcion
 
-Este proyecto muestra tres conceptos importantes de inteligencia artificial , el algoritmo A* , la heuristica y la teoria de juegos. Todos los ejemplos estan hechos en python y se ejecutan en google colab. Cada ejemplo se presenta de forma visual , paso a paso y de forma lenta para poder entender como funcionan las decisiones del algoritmo o de los jugadores.
+Este proyecto muestra tres conceptos importantes de inteligencia artificial , el algoritmo A* , la heuristica y la teoria de juegos.
+
+Todos los ejemplos estan hechos en python y se ejecutan en google colab. Cada ejemplo se presenta de forma visual , paso a paso y de forma lenta para poder entender como funcionan las decisiones del algoritmo o de los jugadores.
 
 ## Algoritmo A*
 
-### Que es
+### Que es?
 
 El algoritmo A* es un algoritmo de busqueda que se usa para encontrar el camino mas corto entre dos puntos dentro de un mapa o grafo. Es muy utilizado en inteligencia artificial , videojuegos , robots y sistemas de navegacion.
 
-### Para que sirve
+### Para que sirve?
 
 Sirve para encontrar la mejor ruta posible entre un punto inicial y un objetivo , evitando obstaculos y explorando los caminos que parecen mas prometedores.
 
-### Como funciona
+### Como funciona?
 
 El algoritmo combina dos valores.
 g(n) , que representa el costo real desde el inicio hasta el nodo actual.
@@ -32,15 +34,15 @@ En el proyecto se implementa un mapa tipo videojuego donde un personaje debe enc
 
 ## Heuristica
 
-### Que es
+### Que es?
 
 Una heuristica es una tecnica que permite estimar rapidamente cual opcion puede ser mejor sin analizar todas las posibilidades completas.
 
-### Para que sirve
+### Para que sirve?
 
 Sirve para acelerar la busqueda de soluciones , permitiendo tomar decisiones rapidas basadas en estimaciones.
 
-### Como funciona
+### Como funciona?
 
 La heuristica calcula una distancia estimada entre dos posiciones. En los ejemplos se usa la distancia manhattan , que suma la diferencia de filas y columnas entre dos posiciones del mapa.
 
@@ -54,15 +56,15 @@ Los ejemplos se muestran visualmente en un mapa con emojis para facilitar la com
 
 ## Teoria de juegos
 
-### Que es
+### Que es?
 
 La teoria de juegos estudia como toman decisiones diferentes participantes cuando el resultado depende de las decisiones de todos.
 
-### Para que sirve
+### Para que sirve?
 
 Sirve para analizar estrategias en situaciones de competencia o cooperacion , donde cada jugador intenta maximizar su beneficio.
 
-### Como funciona
+### Como funciona?
 
 Cada jugador elige una estrategia , y el resultado final depende de la combinacion de estrategias de todos los participantes.
 
